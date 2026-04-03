@@ -10,7 +10,7 @@ const RegistrationSummary = ({ data }) => {
           ✓
         </div>
         <h3 className="text-lg font-semibold text-gray-900">
-          Registration Successful
+          Pendaftaran Berhasil
         </h3>
       </div>
 
@@ -23,7 +23,7 @@ const RegistrationSummary = ({ data }) => {
       <div className="space-y-3 text-sm">
         
         <div className="flex justify-between border-b pb-2">
-          <span className="text-gray-500">Nama</span>
+          <span className="text-gray-500">Nama Lengkap</span>
           <span className="font-medium text-gray-800">{data.nama}</span>
         </div>
 
@@ -33,17 +33,17 @@ const RegistrationSummary = ({ data }) => {
         </div>
 
         <div className="flex justify-between border-b pb-2">
-          <span className="text-gray-500">Umur</span>
+          <span className="text-gray-500">Usia</span>
           <span className="font-medium text-gray-800">{data.umur} tahun</span>
         </div>
 
         <div className="flex justify-between border-b pb-2">
-          <span className="text-gray-500">Framework</span>
+          <span className="text-gray-500">Framework Pilihan</span>
           <span className="font-medium text-gray-800">{data.framework}</span>
         </div>
 
         <div className="flex justify-between">
-          <span className="text-gray-500">Level</span>
+          <span className="text-gray-500">Tingkat Pengalaman</span>
           <span className="font-medium text-gray-800">{data.pengalaman}</span>
         </div>
 

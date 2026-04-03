@@ -78,10 +78,10 @@ const CourseRegistrationForm = () => {
       {/* Header */}
       <div className="mb-6 text-center">
         <h2 className="text-2xl font-bold text-gray-900">
-          Join the Program
+          Gabung Program
         </h2>
         <p className="text-gray-500 text-sm mt-1">
-          Start your journey to become a job-ready developer
+          Mulai perjalananmu menjadi developer siap kerja
         </p>
       </div>
 
@@ -95,7 +95,7 @@ const CourseRegistrationForm = () => {
           value={formData.nama}
           onChange={handleChange}
           error={errors.nama}
-          placeholder="Full Name"
+          placeholder="Nama Lengkap"
         />
 
         <TextInput
@@ -104,7 +104,7 @@ const CourseRegistrationForm = () => {
           value={formData.email}
           onChange={handleChange}
           error={errors.email}
-          placeholder="Email Address"
+          placeholder="Alamat Email"
         />
 
         <TextInput
@@ -112,14 +112,14 @@ const CourseRegistrationForm = () => {
           value={formData.umur}
           onChange={handleChange}
           error={errors.umur}
-          placeholder="Age"
+          placeholder="Usia"
         />
 
         <SelectInput
           name="framework"
           value={formData.framework}
           onChange={handleChange}
-          defaultText="Choose Framework"
+          defaultText="Pilih Framework"
           options={["React", "Vue", "Angular", "Svelte"]}
         />
 
@@ -127,11 +127,11 @@ const CourseRegistrationForm = () => {
           name="pengalaman"
           value={formData.pengalaman}
           onChange={handleChange}
-          defaultText="Experience Level"
+          defaultText="Tingkat Pengalaman"
           options={["Pemula", "Menengah", "Mahir"]}
         />
 
-        {/* Terms */}
+        {/* Syarat & Ketentuan */}
         <div className="flex items-center space-x-2 text-sm text-gray-600">
           <input
             type="checkbox"
@@ -140,35 +140,35 @@ const CourseRegistrationForm = () => {
             className="w-4 h-4 accent-blue-600 cursor-pointer"
           />
           <label htmlFor="terms" className="cursor-pointer">
-            I agree to the{" "}
+            Saya setuju dengan{" "}
             <span className="text-blue-600 hover:underline">
-              Terms & Conditions
+              Syarat & Ketentuan
             </span>
           </label>
         </div>
 
-        {/* Submit */}
+        {/* Tombol Daftar */}
         {isFormValid() && !isSubmitted && (
           <button
             type="submit"
             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl shadow-md hover:shadow-lg transition duration-300"
           >
-            Register Now
+            Daftar Sekarang
           </button>
         )}
       </form>
 
-      {/* Success State */}
+      {/* State Berhasil */}
       {isSubmitted && (
         <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-xl">
           <h3 className="text-green-700 font-semibold mb-2">
-            Registration Successful 🎉
+            Pendaftaran Berhasil 🎉
           </h3>
           <ul className="text-sm text-gray-700 space-y-1">
-            <li><b>Name:</b> {formData.nama}</li>
+            <li><b>Nama:</b> {formData.nama}</li>
             <li><b>Email:</b> {formData.email}</li>
-            <li><b>Age:</b> {formData.umur}</li>
-            <li><b>Course:</b> {formData.framework}</li>
+            <li><b>Usia:</b> {formData.umur}</li>
+            <li><b>Kursus:</b> {formData.framework}</li>
             <li><b>Level:</b> {formData.pengalaman}</li>
           </ul>
         </div>
