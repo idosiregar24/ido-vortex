@@ -3,7 +3,7 @@ import CourseRegistrationForm from "./components/CourseRegistrationForm";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 font-sans overflow-hidden">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 font-sans overflow-hidden">
       
       {/* Dekorasi Blur */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-blue-200 rounded-full blur-3xl opacity-30"></div>
