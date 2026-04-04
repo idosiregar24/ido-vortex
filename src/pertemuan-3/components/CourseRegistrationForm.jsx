@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TextInput from "./TextInput";
 import SelectInput from "./SelectInput";
+import RegistrationSummary from "./RegistrationSummary";
 
 const CourseRegistrationForm = () => {
   const [formData, setFormData] = useState({
@@ -160,18 +161,7 @@ const CourseRegistrationForm = () => {
 
       {/* State Berhasil */}
       {isSubmitted && (
-        <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-xl">
-          <h3 className="text-green-700 font-semibold mb-2">
-            Pendaftaran Berhasil 🎉
-          </h3>
-          <ul className="text-sm text-gray-700 space-y-1">
-            <li><b>Nama:</b> {formData.nama}</li>
-            <li><b>Email:</b> {formData.email}</li>
-            <li><b>Usia:</b> {formData.umur}</li>
-            <li><b>Kursus:</b> {formData.framework}</li>
-            <li><b>Level:</b> {formData.pengalaman}</li>
-          </ul>
-        </div>
+        <RegistrationSummary data={formData} />
       )}
     </div>
   );
