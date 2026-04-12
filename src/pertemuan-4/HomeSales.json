@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "Cluster Modern Minimalis - Pine Residence",
+    "imageUrl": "https://source.unsplash.com/800x600/?modern-architecture",
+    "description": "Hunian asri dengan konsep modern minimalis di kawasan strategis.",
+    "details": {
+      "price": 1250000000,
+      "location": "Pekanbaru, Riau",
+      "specs": {
+        "landArea": "120m²",
+        "buildingArea": "70m²",
+        "bedrooms": 3,
+        "bathrooms": 2
+      }
+    },
+    "tags": ["Minimalis", "Siap Huni", "Keamanan 24 Jam"]
+  },
+  {
+    "id": 2,
+    "name": "Luxury Villa with Private Pool",
+    "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80",
+    "description": "Villa mewah dengan pemandangan pegunungan dan kolam renang pribadi.",
+    "details": {
+      "price": 4500000000,
+      "location": "Batu, Jawa Timur",
+      "specs": {
+        "landArea": "300m²",
+        "buildingArea": "250m²",
+        "bedrooms": 4,
+        "bathrooms": 4
+      }
+    },
+    "tags": ["Mewah", "Kolam Renang", "View Gunung"]
+  },
+  {
+    "id": 3,
+    "name": "Rumah Hook Industrial - Urban Living",
+    "imageUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+    "description": "Desain industrial yang unik di posisi hook memberikan pencahayaan alami maksimal.",
+    "details": {
+      "price": 1850000000,
+      "location": "Tangerang Selatan, Banten",
+      "specs": {
+        "landArea": "150m²",
+        "buildingArea": "120m²",
+        "bedrooms": 3,
+        "bathrooms": 3
+      }
+    },
+    "tags": ["Industrial", "Hook", "Smart Home"]
+  },
+  {
+    "id": 4,
+    "name": "Townhouse Eksklusif - Emerald Garden",
+    "imageUrl": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80",
+    "description": "Lingkungan hijau dengan fasilitas taman bermain anak dan clubhouse.",
+    "details": {
+      "price": 2100000000,
+      "location": "Jakarta Selatan, DKI Jakarta",
+      "specs": {
+        "landArea": "100m²",
+        "buildingArea": "150m²",
+        "bedrooms": 3,
+        "bathrooms": 2
+      }
+    },
+    "tags": ["Townhouse", "Strategis", "Bebas Banjir"]
+  },
+  {
+    "id": 5,
+    "name": "Classic European Style House",
+    "imageUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+    "description": "Rumah dengan gaya klasik Eropa yang megah dan pilar-pilar tinggi.",
+    "details": {
+      "price": 5200000000,
+      "location": "Bandung, Jawa Barat",
+      "specs": {
+        "landArea": "400m²",
+        "buildingArea": "350m²",
+        "bedrooms": 5,
+        "bathrooms": 5
+      }
+    },
+    "tags": ["Klasik", "Halaman Luas", "High Ceiling"]
+  },
+  {
+    "id": 6,
+    "name": "Rumah Subsidi Type 36",
+    "imageUrl": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=800&q=80",
+    "description": "Rumah pertama yang nyaman dan terjangkau untuk keluarga muda.",
+    "details": {
+      "price": 168000000,
+      "location": "Kampar, Riau",
+      "specs": {
+        "landArea": "108m²",
+        "buildingArea": "36m²",
+        "bedrooms": 2,
+        "bathrooms": 1
+      }
+    },
+    "tags": ["Murah", "Cicilan Ringan", "Subsidi"]
+  },
+  {
+    "id": 7,
+    "name": "Modern Glass House - Lake View",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "description": "Konsep rumah kaca modern dengan pemandangan danau yang menenangkan.",
+    "details": {
+      "price": 3750000000,
+      "location": "Bogor, Jawa Barat",
+      "specs": {
+        "landArea": "250m²",
+        "buildingArea": "200m²",
+        "bedrooms": 3,
+        "bathrooms": 3
+      }
+    },
+    "tags": ["Modern", "Lake View", "Eco Friendly"]
+  },
+  {
+    "id": 8,
+    "name": "Japanese Zen Home - Nara Village",
+    "imageUrl": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80",
+    "description": "Rumah dengan konsep Zen Jepang yang fokus pada ketenangan dan efisiensi ruang.",
+    "details": {
+      "price": 1400000000,
+      "location": "Sleman, Yogyakarta",
+      "specs": {
+        "landArea": "110m²",
+        "buildingArea": "90m²",
+        "bedrooms": 2,
+        "bathrooms": 2
+      }
+    },
+    "tags": ["Zen", "Minimalis", "Taman Tengah"]
+  },
+  {
+    "id": 9,
+    "name": "Rumah Kost Eksklusif 10 Kamar",
+    "imageUrl": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80",
+    "description": "Investasi cerdas dengan ROI tinggi, dekat dengan kawasan kampus.",
+    "details": {
+      "price": 2800000000,
+      "location": "Malang, Jawa Timur",
+      "specs": {
+        "landArea": "200m²",
+        "buildingArea": "300m²",
+        "bedrooms": 10,
+        "bathrooms": 10
+      }
+    },
+    "tags": ["Investasi", "Kost", "Dekat Kampus"]
+  },
+  {
+    "id": 10,
+    "name": "Smart Penthouse City Center",
+    "imageUrl": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80",
+    "description": "Penthouse mewah di pusat kota dengan sistem otomasi rumah lengkap.",
+    "details": {
+      "price": 7500000000,
+      "location": "Surabaya, Jawa Timur",
+      "specs": {
+        "landArea": "180m²",
+        "buildingArea": "180m²",
+        "bedrooms": 3,
+        "bathrooms": 3
+      }
+    },
+    "tags": ["Smart Home", "Penthouse", "Pusat Kota"]
+  },
+  {
+    "id": 11,
+    "name": "Rumah Kebun Tropis",
+    "imageUrl": "https://images.unsplash.com/photo-1500313830540-7b6650a74fd0?auto=format&fit=crop&w=800&q=80",
+    "description": "Rumah dengan halaman yang sangat luas dan dipenuhi tanaman tropis.",
+    "details": {
+      "price": 2300000000,
+      "location": "Denpasar, Bali",
+      "specs": {
+        "landArea": "600m²",
+        "buildingArea": "150m²",
+        "bedrooms": 3,
+        "bathrooms": 2
+      }
+    },
+    "tags": ["Tropis", "Kebun", "Asri"]
+  },
+  {
+    "id": 12,
+    "name": "Minimalis Split Level",
+    "imageUrl": "https://images.unsplash.com/photo-1494526585181-75249f2d1bc6?auto=format&fit=crop&w=800&q=80",
+    "description": "Memanfaatkan kontur tanah dengan desain split level yang modern.",
+    "details": {
+      "price": 1600000000,
+      "location": "Semarang, Jawa Tengah",
+      "specs": {
+        "landArea": "130m²",
+        "buildingArea": "145m²",
+        "bedrooms": 3,
+        "bathrooms": 2
+      }
+    },
+    "tags": ["Split Level", "Modern", "Efisien"]
+  },
+  {
+    "id": 13,
+    "name": "Rumah Mewah Pondok Indah",
+    "imageUrl": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=800&q=80",
+    "description": "Properti prestisius di kawasan elit dengan keamanan berlapis.",
+    "details": {
+      "price": 15000000000,
+      "location": "Jakarta Selatan, DKI Jakarta",
+      "specs": {
+        "landArea": "800m²",
+        "buildingArea": "600m²",
+        "bedrooms": 6,
+        "bathrooms": 7
+      }
+    },
+    "tags": ["Elit", "Prestisius", "Super Mewah"]
+  },
+  {
+    "id": 14,
+    "name": "Compact House - Micro Living",
+    "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=800&q=80",
+    "description": "Rumah mungil yang didesain cerdas untuk gaya hidup urban.",
+    "details": {
+      "price": 850000000,
+      "location": "Bekasi, Jawa Barat",
+      "specs": {
+        "landArea": "60m²",
+        "buildingArea": "70m²",
+        "bedrooms": 2,
+        "bathrooms": 1
+      }
+    },
+    "tags": ["Compact", "Urban", "Fungsional"]
+  },
+  {
+    "id": 15,
+    "name": "Rumah Gaya Kolonial Restorasi",
+    "imageUrl": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80",
+    "description": "Bangunan bersejarah yang telah direstorasi dengan fasilitas modern.",
+    "details": {
+      "price": 3200000000,
+      "location": "Solo, Jawa Tengah",
+      "specs": {
+        "landArea": "350m²",
+        "buildingArea": "200m²",
+        "bedrooms": 4,
+        "bathrooms": 3
+      }
+    },
+    "tags": ["Kolonial", "Antik", "Restorasi"]
+  },
+  {
+    "id": 16,
+    "name": "Sky Mansion Apartment",
+    "imageUrl": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
+    "description": "Hunian vertikal dengan akses langsung ke pusat perbelanjaan.",
+    "details": {
+      "price": 2900000000,
+      "location": "Medan, Sumatera Utara",
+      "specs": {
+        "landArea": "120m²",
+        "buildingArea": "120m²",
+        "bedrooms": 3,
+        "bathrooms": 2
+      }
+    },
+    "tags": ["Apartemen", "Mall Akses", "City View"]
+  },
+  {
+    "id": 17,
+    "name": "Rumah Scandinavian Wood",
+    "imageUrl": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=80",
+    "description": "Aksen kayu yang hangat dengan palet warna netral khas Scandinavia.",
+    "details": {
+      "price": 1750000000,
+      "location": "Makassar, Sulawesi Selatan",
+      "specs": {
+        "landArea": "140m²",
+        "buildingArea": "110m²",
+        "bedrooms": 3,
+        "bathrooms": 2
+      }
+    },
+    "tags": ["Scandinavian", "Interior Kayu", "Hangat"]
+  },
+  {
+    "id": 18,
+    "name": "Resort House Jimbaran",
+    "imageUrl": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?auto=format&fit=crop&w=800&q=80",
+    "description": "Cocok untuk rumah singgah atau disewakan sebagai homestay.",
+    "details": {
+      "price": 3900000000,
+      "location": "Badung, Bali",
+      "specs": {
+        "landArea": "250m²",
+        "buildingArea": "180m²",
+        "bedrooms": 3,
+        "bathrooms": 3
+      }
+    },
+    "tags": ["Resort", "Investment", "Pantai"]
+  },
+  {
+    "id": 19,
+    "name": "The Glass Cube - Modern Art",
+    "imageUrl": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80",
+    "description": "Karya arsitektur berbentuk kubus kaca yang futuristik.",
+    "details": {
+      "price": 4200000000,
+      "location": "Balikpapan, Kalimantan Timur",
+      "specs": {
+        "landArea": "220m²",
+        "buildingArea": "190m²",
+        "bedrooms": 3,
+        "bathrooms": 4
+      }
+    },
+    "tags": ["Futuristik", "Arsitektural", "Lampu LED"]
+  },
+  {
+    "id": 20,
+    "name": "Rumah Mezzanine Keluarga Muda",
+    "imageUrl": "https://images.unsplash.com/photo-1513584684374-8bdb7489feef?auto=format&fit=crop&w=800&q=80",
+    "description": "Memanfaatkan tinggi plafon untuk area tambahan (mezzanine).",
+    "details": {
+      "price": 1100000000,
+      "location": "Palembang, Sumatera Selatan",
+      "specs": {
+        "landArea": "100m²",
+        "buildingArea": "85m²",
+        "bedrooms": 2,
+        "bathrooms": 1
+      }
+    },
+    "tags": ["Mezzanine", "Plafon Tinggi", "Trendi"]
+  }
+]
